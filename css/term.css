@@ -1,0 +1,76 @@
+.term {
+  display: block;
+  width: 250px;
+  height: 259px;
+  background: #ccc;
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.term-title {
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 150%;
+  width: 72px;
+  height: 23px;
+}
+
+.term-list {
+  margin: 15px;
+
+}
+
+.term-list > div {
+  margin-top: 10px;
+  display: flow-root;
+}
+
+.term-list-subject,
+.term-list-brief {
+  float: right;
+  width: 145px;
+}
+
+.term-list-subject {
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: #296897;
+  display: inline;
+}
+
+.term-list-thumbnail {
+  float: left;
+  
+}
+
+.term-list-thumbnail img {
+  vertical-align: middle;
+}
+
+.term-list-brief {
+  margin-top: 5px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.sec .term-list-subject,
+.sec .term-list-brief {
+  float: left;
+  display: inline;
+  text-align: left;
+}
+
+.sec .term-list-thumbnail {
+  float: right;
+}

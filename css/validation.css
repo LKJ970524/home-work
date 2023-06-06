@@ -1,0 +1,29 @@
+.validation-list {
+  margin-top: 25px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 250px;
+  height: 86px;
+}
+
+.validation-list li {
+  margin-top: 10px;
+  list-style: none;
+}
+
+.validation-list a {
+  display: block;
+  background: url(../images/validation_icon.png) no-repeat 20px 50%, #cccccc;
+  border: 1px solid #aaa;
+  padding: 10px 10px 10px 40px;
+  border-radius: 34px;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.validation-list a:hover,
+.validation-list a:focus {
+  color: #f00;
+}
