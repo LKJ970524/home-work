@@ -27,13 +27,13 @@
   display: flow-root;
 }
 
-.term-list-subject,
-.term-list-brief {
+.term-subtit,  /*subtit,text*/
+.term-text {
   float: right;
   width: 145px;
 }
 
-.term-list-subject {
+.term-subtit {
   font-family: 'Pretendard';
   font-style: normal;
   font-weight: 700;
@@ -43,16 +43,16 @@
   display: inline;
 }
 
-.term-list-thumbnail {
+.term-img {
   float: left;
   
 }
 
-.term-list-thumbnail img {
+.term-img img {
   vertical-align: middle;
 }
 
-.term-list-brief {
+.term-text {
   margin-top: 5px;
   font-family: 'Pretendard';
   font-style: normal;
@@ -61,13 +61,13 @@
   line-height: 150%;
 }
 
-.sec .term-list-subject,
-.sec .term-list-brief {
+.sec .term-subtit,
+.sec .term-text {
   float: left;
   display: inline;
   text-align: left;
 }
 
-.sec .term-list-thumbnail {
+.sec .term-img {
   float: right;
 }
