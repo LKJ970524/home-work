@@ -19,6 +19,7 @@ margin-top으로 제목과간격을주고 border-radius로 위쪽을 둥글게 �
 
 
 login-form의 자식요소
+
 fieldset : position relative로 요소를 배치하고 border-bottom으로 밑줄을 만들어주었습니다.
 
 label : display를 inline-block으로바꿔주었습니다.
@@ -28,4 +29,5 @@ input : flex-direction row로 방향을 잡아주고 align-item center로 중아
 login-button : position absolute로 요소를 제거하고 위치를 잡아주었습니다
 
 class = sign(회원가입/아이디,비밀번호찾기)
+
 sign : flex-flow로 정방향 한줄로 가게 만들었고 float를 줘 양옆으로 만들었습니다.
