@@ -30,4 +30,4 @@ login-button : position absolute로 요소를 제거하고 위치를 잡아주�
 
 class = sign(회원가입/아이디,비밀번호찾기)
 
-sign : flex-flow로 정방향 한줄로 가게 만들었고 float를 줘 양옆으로 만들었습니다.
+sign : flex-flow로 정방향 한줄, 줄바꿈 금지로 가게 만들었고 float를 줘 양옆으로 만들었습니다.
