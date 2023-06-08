@@ -1,0 +1,112 @@
+.login {
+  width: 244px;
+  height: 161px;
+  background: #ed552f radial-gradient(circle at right top, #e8852e, #ed552f);
+  border-radius: 5px;
+  box-shadow: 5px 5px 0 0 #aaa;
+  padding: 10px;
+  margin: 30px;
+  font-family: pretendard;
+}
+
+.login-title {
+  color: #ffff00;
+  font-size: 15px;
+  font-weight: 700;
+  text-indent: 10px;
+  font-style: normal;
+  line-height: 150%;
+}
+
+.box {
+  width: 220px;
+  height: 106px;
+}
+
+.login-form,
+.sign {
+  background: #fff;
+}
+
+.login-form {
+  margin-top: 10px;
+  border-radius: 5px 5px 0 0;
+  padding: 10px 10px 0 10px;
+  width: 220px;
+  height: 69px;
+}
+
+.login-form fieldset {
+  position: relative;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 4px;
+}
+
+.login-form div {
+  margin-bottom: 6px;
+}
+
+.login-form label {
+  display: inline-block;
+  width: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.login-form input {
+  width: 90px;
+  height: 24px;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 0px 0px 8px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.login-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  font-size: 13px;
+  color: #fff;
+  background: #ed552f;
+  border-radius: 5px;
+  border: 0;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.sign {
+  border-radius: 0 0 5px 5px;
+  padding: 4px 10px;
+  flex-flow: row nowrap;
+  font-size: 1.2rem;
+  width: 220px;
+  height: 36px;
+}
+
+.form1 {
+  float: left;
+}
+
+.form2 {
+  float: right;
+}
+
+.sign a {
+  padding: 4px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+}
