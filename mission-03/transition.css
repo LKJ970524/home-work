@@ -1,0 +1,55 @@
+.related{
+  width: 190px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 30px;
+  border: 1px solid #A3A3A3;
+  border-radius: 5px;
+  padding: 8px 12px 12px 12px;
+  background: linear-gradient(180deg, #CCCCCC 0%, #EEEEEE 100%);;
+  font-family: 'Pretendard';
+}
+
+.related-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.site { 
+  color: #ED552F;
+}
+
+.related-list{
+  margin-top: 10px;
+  background: #fff;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  height: 27px;
+  overflow: hidden;
+  transition: height 400ms, padding 400ms 400ms;
+}
+
+.related-list:hover, .related-list:focus
+.related:hover, .related:focus{
+  height: 147px;
+  padding: 10px 0;
+}
+
+.related-list a{
+  display: block;
+  line-height: 30px;  
+  text-indent: 25px; /*들여쓰기*/
+  text-decoration-line: none;
+  color: black;
+}
+
+.related-list a:focus{
+  outline-offset: -2px;
+}
+
+li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  list-style: none;
+}
