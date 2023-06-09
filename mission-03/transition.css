@@ -26,7 +26,7 @@
   border-radius: 5px;
   height: 27px;
   overflow: hidden;
-  transition: height 400ms, padding 400ms 400ms;
+  transition: height .4s, padding .4s .4s;
 }
 
 .related-list:hover, .related-list:focus
