@@ -1,4 +1,4 @@
-.related{
+.main {
   width: 190px;
   height: auto;
   margin-top: 50px;
@@ -10,8 +10,8 @@
   font-family: 'Pretendard';
 }
 
-.related-title {
-  font-size: 1.5rem;
+.main-title {
+  font-size: 15px;
   font-weight: 700;
 }
 
@@ -19,7 +19,7 @@
   color: #ED552F;
 }
 
-.related-list{
+.main-list {
   margin-top: 10px;
   background: #fff;
   border: 1px solid #aaa;
@@ -29,13 +29,12 @@
   transition: height .4s, padding .4s .4s;
 }
 
-.related-list:hover, .related-list:focus
-.related:hover, .related:focus{
+.main-list:hover, .main-list:focus {
   height: 147px;
   padding: 10px 0;
 }
 
-.related-list a{
+.main-list a {
   display: block;
   line-height: 30px;  
   text-indent: 25px; /*들여쓰기*/
@@ -43,8 +42,8 @@
   color: black;
 }
 
-.related-list a:focus{
-  outline-offset: -2px;
+.main-list a:focus {
+  /* outline-offset: -2px; */
 }
 
 li {
