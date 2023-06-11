@@ -1,7 +1,7 @@
 # mission-03 README
 
 <p align="center">
-  <img src="https://github.com/LKJ970524/home-work/assets/115642699/c04f8b9d-f76e-47e6-a5de-39b4ebb0c3cd">
+  <img src="https://github.com/LKJ970524/home-work/assets/115642699/9a3a7496-2cb2-4553-8c85-ca3745cd718c">
 </p>
 
 ## HTML코드
