@@ -1,6 +1,10 @@
 # mission-03 README
 
-## 코드
+<p align="center">
+  <img src="https://github.com/LKJ970524/home-work/assets/115642699/c04f8b9d-f76e-47e6-a5de-39b4ebb0c3cd">
+</p>
+
+## HTML코드
 
     <div class="main">
     <h2 class="main-title">관련 <span class="site">사이트</span></h2>
@@ -65,3 +69,9 @@
       color: black;
     }
 
+### 코드설명
+list 속성에 overflow: hidden 속성을 줘서 겹침 효과를 주었고 transition으로 아래로 스르륵 내려가는 효과를 주었습니다.
+
+:hover와 :focus로 마우스가 focus될 때 아래로 얼마나 내려갈지 그리고 padding으로 내려간후 위아래가 조금씩 모아지도록 효과를 주었습니다.
+
+a태그는 text-indent로 들여쓰기 효과를 넣어줬고 a태그로 글씨 작성시 밑줄이 그어지는 효과가 생겨 밑줄을 지워주는 코드를 적었습니다.
