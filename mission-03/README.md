@@ -27,7 +27,7 @@
       border: 1px solid #A3A3A3;
       border-radius: 5px;
       padding: 8px 12px 12px 12px;
-      background: linear-gradient(180deg, #CCCCCC 0%, #EEEEEE 100%);;
+      background: linear-gradient(180deg, #CCCCCC 0%, #EEEEEE 100%);
       font-family: 'Pretendard';
     }
 
