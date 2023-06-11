@@ -34,21 +34,16 @@
   padding: 10px 0;
 }
 
+li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
 .main-list a {
   display: block;
   line-height: 30px;  
   text-indent: 25px; /*들여쓰기*/
   text-decoration-line: none;
   color: black;
-}
-
-.main-list a:focus {
-  /* outline-offset: -2px; */
-}
-
-li {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  list-style: none;
 }
