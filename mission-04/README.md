@@ -92,7 +92,7 @@
     }
 
     .photo {
-   width: 112px;
+    width: 112px;
     height: 66px;
     grid-area: img;
     padding-right: 30px;
