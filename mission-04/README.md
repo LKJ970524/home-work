@@ -35,6 +35,7 @@
     color: inherit;
     }
 
+section태그를 inline-block으로 바꿨습니다.
     .news {
     font-family: pretendard;
     margin-left: 30px;
@@ -43,6 +44,7 @@
     display: inline-block;
     }
 
+가상요소를 주어 배경에 그라디언트 실선하나를 주고 위치에 맞게 배치하였습니다.
     .news::before {
     content: "";
     position: absolute;
@@ -53,6 +55,8 @@
     left: 0;
     }
 
+
+relative와 inline-block으로 새소식과 더보기를 배치하였습니다.
     .title {
     font-weight: 700;
     color: #ed552f;
@@ -65,6 +69,8 @@
     padding: 8px;
     }
 
+
+grid 속성을 사용하여 12열을 만들고 행은 auto로 주어 배치하였습니다.
     .item {
     width: 380px;
     height: auto;
@@ -99,6 +105,8 @@
     text-align: center;
     }
 
+
+이미지에 명암같은 효과가 있어 box-shadow효과로 처리하였습니다.
     .img {
     width: 112px;
     height: 66px;
