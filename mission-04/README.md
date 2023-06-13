@@ -109,6 +109,13 @@ grid 속성을 사용하여 12열을 만들고 행은 auto로 주어 배치하�
     text-align: center;
     }
 
+    .brief {
+    margin-top: 10px;
+    grid-area: brief;
+    text-align: justify;
+    width: 230px;
+    }
+
 
 이미지에 명암같은 효과가 있어 box-shadow효과로 처리하였습니다.
 
@@ -117,11 +124,4 @@ grid 속성을 사용하여 12열을 만들고 행은 auto로 주어 배치하�
     height: 66px;
     box-shadow: 0 15px 10px 5px #eee;
     margin-bottom: 15px;
-    }
-
-    .brief {
-    margin-top: 10px;
-    grid-area: brief;
-    text-align: justify;
-    width: 230px;
     }
