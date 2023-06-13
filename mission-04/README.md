@@ -5,7 +5,7 @@
   <img src="https://github.com/LKJ970524/home-work/assets/115642699/d16b4a73-756b-475c-ba76-33f050cb89a8">
 </p>
 
-## HTML코드
+### HTML코드
 
     <section class="news">
     <h2 class="title">새소식</h2>
@@ -25,7 +25,7 @@
     <a href="/" class="more">더보기</a>
     </section>
 
-## CSS 코드 및  설명
+### CSS 코드 및  설명
 
     /* 공통속성 */
     * {
