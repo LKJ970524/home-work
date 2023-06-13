@@ -35,4 +35,80 @@
     color: inherit;
     }
 
-    
+    .news {
+    font-family: pretendard;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+    }
+
+    .news::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #aaa linear-gradient(to right, #aaa, #fff);
+    top: 35px;
+    left: 0;
+    }
+
+    .title {
+    font-weight: 700;
+    color: #ed552f;
+    }
+
+    .more {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    padding: 8px;
+    }
+
+    .item {
+    width: 380px;
+    height: auto;
+    margin-top: 35px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "img re"  
+    "img date"
+    "img brief"
+    ;
+    }
+
+    .re {
+    font-weight: 700;
+    margin-bottom: 10px;
+    grid-area: re;
+    }
+
+    .date {
+    grid-area: date;
+    margin-bottom: 12px;
+    }
+
+    .photo {
+   width: 112px;
+    height: 66px;
+    grid-area: img;
+    padding-right: 30px;
+    text-align: center;
+    }
+
+    .img {
+    width: 112px;
+    height: 66px;
+    box-shadow: 0 15px 10px 5px #eee;
+    margin-bottom: 15px;
+    }
+
+    .brief {
+    margin-top: 10px;
+    grid-area: brief;
+    text-align: justify;
+    width: 230px;
+    }
