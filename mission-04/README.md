@@ -1,5 +1,10 @@
 # mission-04 Grid README
 
+## 완성 이미지
+<p align="center">
+  <img src="https://github.com/LKJ970524/home-work/assets/115642699/315f00a4-6220-4bd9-bc78-e3adea7aed3d">
+</p>
+
 ## HTML코드
 
     <section class="news">
