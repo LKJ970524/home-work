@@ -1,0 +1,88 @@
+.sprite{
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  background: #ccc linear-gradient(to bottom, #ccc, #eee);
+  width: 190px;
+  height: 147px;
+  padding: 12px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.title{
+  font-size: 15px;
+  font-weight: 700;
+  width: 166px;
+  height: auto;
+}
+
+.site{
+  color: #ed552f;
+}
+
+.favorite{
+  position: relative;
+  font-family: pretendard;
+}
+
+.list{
+  list-style: none;
+  margin-top: 10px;
+  counter-reset: number;
+  padding-top: 4px;
+}
+ 
+.list li{
+  counter-increment: number;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  padding: 2px;
+}
+
+.list li::before{
+  content: counter(number);
+  color: #fff;
+  background-color: #aaa;
+  border-radius: 5px;
+  width: 16px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+  margin-right: 4px;
+}
+
+.list em{
+  background: url("./rank.png") no-repeat;
+  width: 9px;
+  height: 11px;
+  margin-left: auto;
+}
+
+.list .up {
+  background-position: 0 0;
+}
+
+.list .stop{
+  background-position: 0 -22px;
+}
+
+.list .down{
+  background-position: 0 -44px;
+}
+
+.more{
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  padding: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+}
