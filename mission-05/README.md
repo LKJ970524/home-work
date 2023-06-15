@@ -114,4 +114,4 @@ list-style을 제거하고 counter-increment와 content로 li태그에 번호를
       background-position: 0 -44px;
     }
 
-이미지 스프라이트 기법으로 이미지에 원하는 사진을 알맞게 배치하였습니다.
+이미지 스프라이트 기법으로 a태그에 원하는 사진을 알맞게 배치하였습니다.
