@@ -1,7 +1,9 @@
 # mission-05 Sprite README
 
 ## 완성 이미지
-
+<p align="center">
+  <img src="https://github.com/LKJ970524/home-work/assets/115642699/dd0ed064-a90d-45c9-b7ca-b8151a492c52">
+</p>
 
 ### HTML 코드
 
