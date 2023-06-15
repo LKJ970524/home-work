@@ -1,7 +1,8 @@
-.sprite{
+.favorite{
+  position: relative;
+  font-family: pretendard;
   border: 1px solid #aaa;
   border-radius: 5px;
-  padding: 10px;
   background: #ccc linear-gradient(to bottom, #ccc, #eee);
   width: 190px;
   height: 147px;
@@ -19,11 +20,6 @@
 
 .site{
   color: #ed552f;
-}
-
-.favorite{
-  position: relative;
-  font-family: pretendard;
 }
 
 .list{
@@ -76,8 +72,8 @@
 
 .more{
   position: absolute;
-  top: -12px;
-  right: -12px;
+  top: 0;
+  right: 0;
   padding: 12px;
 }
 
