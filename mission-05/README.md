@@ -2,7 +2,7 @@
 
 ## 완성 이미지
 <p align="center">
-  <img src="https://github.com/LKJ970524/home-work/assets/115642699/dd0ed064-a90d-45c9-b7ca-b8151a492c52">
+  <img src="https://github.com/LKJ970524/home-work/assets/115642699/52d7fd61-c0d8-4bd3-8679-83ec3b94b44a">
 </p>
 
 ### HTML 코드
